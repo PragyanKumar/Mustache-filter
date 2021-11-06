@@ -1,0 +1,15 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+background-color: chartreuse;
+}
+canvas{
+    animation-name: Light;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Light {
+    from{box-shadow: 1px 1px 100px blue;}
+    to {box-shadow: 1px 1px 100px yellow;}
+}
